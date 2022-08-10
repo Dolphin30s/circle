@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+div.top {
+  /* background: steelblue; */
+  border: 5px solid orange;
+  /* background-image: linear-gradient(
+    to right,
+    rgba(200, 0, 0, 1),
+    rgba(255, 0, 0, 0.5)
+  ); */
+  border-bottom: none;
+  display: inline-block;
+  margin: 0 1em 1em 0;
+}
+
+.top {
+  height: 75px;
+  width: 150px;
+}
+
+.top {
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: grey transparent transparent transparent;
+  top: 46px;
+  left: 165px;
+}
+
+.min-value {
+  position: absolute;
+  top: 127px;
+  left: 28px;
+}
+
+.average-value {
+  position: absolute;
+  left: 135px;
+  top: 15px;
+}
+
+.semi-circle {
+  left: 100px;
+  position: absolute;
+  top: 60px;
+}
+
+.max-value {
+  position: absolute;
+  top: 125px;
+  left: 270px;
+}
